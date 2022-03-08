@@ -1,0 +1,53 @@
+body {
+  font-family: HK Grotesk;
+}
+
+#content {
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+}
+
+#nav-bar {
+  background-color: #f5f589;
+}
+
+#navbar-title {
+  color: black;
+  font-weight: bolder;
+}
+
+#videoContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50%;
+  }
+  
+  #video {
+    text-align: center;
+    display: none;
+    margin-bottom: 5%;
+  }
+  
+  #titulo {
+    text-align: center;
+  }
+
+  #subtitle {
+    text-align: center;
+  }
+  
+  #prefooter {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+  }
